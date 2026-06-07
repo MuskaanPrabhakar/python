@@ -1,5 +1,5 @@
 #calculator inifinite time using if elif or else statements
-a=input("Enter operation you want to perform:" ) #input function is used to take input from the user and it returns a string
+a=input("Enter operation you want to perform +, -, *, /, % :" ) #input function is used to take input from the user and it returns a string
 while a!="quit":
     b=int(input("Enter first number: "))
     c=int(input("Enter second number: "))
@@ -13,7 +13,9 @@ while a!="quit":
         print(f"Product of {b} and {c} is: {b*c}")
     elif a=="/" or a=="divide" or a=="division":
         print(f"Quotient of {b} and {c} is: {b/c}")
+    elif a=="%" or a=="modulus" or a=="mod":
+        print(f"Remainder of {b} and {c} is: {b%c}")
     else:
-        print("Invalid operation, enter +, -, *, /, add, subtract, multiply or divide or quit to exit")
+        print("Invalid operation, enter +, -, *, /, %, add, subtract, multiply or divide or quit to exit")
     a=input("Enter operation you want to perform or enter 'quit' to exit:" )
 
