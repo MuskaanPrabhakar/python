@@ -1,0 +1,1 @@
+#Write a program that accepts a sentence and a word from the user. Print: how many times the word appears, at what character position it first appears, and the sentence with that word replaced by "*".

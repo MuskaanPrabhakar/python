@@ -23,7 +23,7 @@ list1.append(6) #append is used to add an element at the end of the list
 print(list1)
 
 list=(1,2,3,4.789,4,4, 5,"abc") #tuple round brackets are used to define a tuple in python values can't be changed in tuple but can be changed in list and tuple is faster than list because of immutability
-#tuple is mutable and list is immutable
+#tuple is immutable and list is mutable
 print(list)
 
 a={"name":"abc", "age":25, "city":"xyz"} #dictionary curly braces are used to define a dictionary in python
