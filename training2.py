@@ -1,4 +1,4 @@
-a=5
+a=45.5
 b=9
 #arithmetic operators
 print(a+b) #addition

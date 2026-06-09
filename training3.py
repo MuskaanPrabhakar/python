@@ -45,3 +45,4 @@ print(a[0:3]) #list slicing is used to get a sublist of the original list based 
 print(a.count(4)) #count is used to count the number of occurrences of a specific element in the list and it returns the count of the specified element in the list
 a.index(4) #index is used to get the index of the first occurrence of a specific element in the list and it returns the index of the specified element in the list
 print(a.index(4)) #index is used to get the index of the first occurrence of a specific element in the list and it returns the index of the specified element in the list
+#string.replace(old, new, count)
