@@ -1,0 +1,1 @@
+#4. Build a duplicate finder. Take a list of numbers from the user. Use sets to find which numbers appear more than once, which appear exactly once, and which appear more than twice. Print three separate results.

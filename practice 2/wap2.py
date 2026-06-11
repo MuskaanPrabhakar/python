@@ -1,0 +1,1 @@
+#Build a shopping cart using a list of tuples (item_name, price, quantity). Write functions to compute total price, apply a discount if total exceeds 1000, and print an itemized receipt with formatted output.
