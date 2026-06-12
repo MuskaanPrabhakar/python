@@ -1,0 +1,15 @@
+#text -> csv, txt etc
+#byte -> jpg, mp4 etc
+file = open("name.type", 'w') w-> for write, r-> read, a->append(use write)
+data = file.write("This is test") this returns integer of how many characters like 12.. write->read.. we can do reading while writing.. \n for new line
+file.close() every line creates instance in memory so to stop this we close
+print(data)
+data=file.read(4)
+data=file.read() this will show after 4 becoz of pointer
+data= file.readline()
+data=file.readlines() returns list
+one problem-> if we forget to close then file will always remain open in memory
+solution-> with open('file.txt','r') as file:
+                 print(file.read())
+
+images as bytecode, they have specific pattern and python code can be written below it and making hacking easy

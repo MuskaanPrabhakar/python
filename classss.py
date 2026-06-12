@@ -31,3 +31,8 @@ class calc:
 a= calc()
 print(a.addd(1,2))
 print(a.subb(2,1))
+
+#obj.set_value_using_self(value) only for object
+#obj.set_value_using_static_method(value) for overall class
+
+
