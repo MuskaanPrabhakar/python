@@ -1,6 +1,6 @@
 #text -> csv, txt etc
 #byte -> jpg, mp4 etc
-file = open("name.type", 'w') w-> for write, r-> read, a->append(use write)
+file = open("name.type", 'w') w-> for write, r-> read, a->append(use write), rb-> binary read
 data = file.write("This is test") this returns integer of how many characters like 12.. write->read.. we can do reading while writing.. \n for new line
 file.close() every line creates instance in memory so to stop this we close
 print(data)
